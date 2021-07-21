@@ -1,6 +1,6 @@
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions":
+    "actions": 
     [
         {
             "command": "find",
@@ -20,11 +20,11 @@
     "copyOnSelect": false,
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
     "launchMode": "default",
-    "profiles":
+    "profiles": 
     {
-        "defaults":
+        "defaults": 
         {
-            "acrylicOpacity": 0.8,
+            "acrylicOpacity": 0.80000000000000004,
             "colorScheme": "Material",
             "fontFace": "FiraMono NF",
             "fontSize": 10,
@@ -32,7 +32,7 @@
             "scrollbarState": "hidden",
             "useAcrylic": true
         },
-        "list":
+        "list": 
         [
             {
                 "commandline": "powershell.exe",
@@ -72,7 +72,7 @@
             }
         ]
     },
-    "schemes":
+    "schemes": 
     [
         {
             "background": "#0C0C0C",
