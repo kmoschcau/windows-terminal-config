@@ -305,6 +305,7 @@
             "yellow": "#808000"
         }
     ],
+    "showTabsInTitlebar": false,
     "snapToGridOnResize": true,
     "tabWidthMode": "titleLength",
     "theme": "system",
