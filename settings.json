@@ -25,9 +25,14 @@
         "defaults": 
         {
             "acrylicOpacity": 0.80000000000000004,
+            "antialiasingMode": "cleartype",
             "colorScheme": "Material",
-            "fontFace": "FiraMono NF",
-            "fontSize": 10,
+            "experimental.retroTerminalEffect": false,
+            "font": 
+            {
+                "face": "FiraMono NF",
+                "size": 10
+            },
             "padding": "0",
             "scrollbarState": "hidden",
             "useAcrylic": true
@@ -309,5 +314,6 @@
     "snapToGridOnResize": true,
     "tabWidthMode": "titleLength",
     "theme": "system",
+    "useAcrylicInTabRow": true,
     "windowingBehavior": "useAnyExisting"
 }
