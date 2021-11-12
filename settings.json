@@ -25,14 +25,14 @@
         "defaults": 
         {
             "acrylicOpacity": 0.80000000000000004,
-            "antialiasingMode": "cleartype",
             "colorScheme": "Material",
-            "experimental.retroTerminalEffect": false,
             "font": 
             {
                 "face": "FiraMono NF",
-                "size": 10
+                "size": 10,
+                "weight": "thin"
             },
+            "intenseTextStyle": "all",
             "padding": "0",
             "scrollbarState": "hidden",
             "useAcrylic": true
