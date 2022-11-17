@@ -1,4 +1,5 @@
 {
+    "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
     "actions": 
     [
@@ -24,15 +25,15 @@
     {
         "defaults": 
         {
-            "acrylicOpacity": 0.80000000000000004,
-            "colorScheme": "Material",
+            "colorScheme": "Material Light",
             "font": 
             {
-                "face": "FuraMono NF",
+                "face": "FuraMono Nerd Font",
                 "size": 10,
                 "weight": "normal"
             },
             "intenseTextStyle": "bold",
+            "opacity": 80,
             "padding": "0",
             "scrollbarState": "hidden",
             "useAcrylic": true
@@ -40,13 +41,11 @@
         "list": 
         [
             {
-                "commandline": "powershell.exe",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
                 "name": "Windows PowerShell"
             },
             {
-                "commandline": "cmd.exe",
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
                 "name": "Command Prompt"
@@ -58,10 +57,11 @@
                 "source": "Windows.Terminal.PowershellCore"
             },
             {
-                "guid": "{a3a2e83a-884a-5379-baa8-16f193a13b21}",
+                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
                 "hidden": false,
-                "name": "PowerShell 7 Preview",
-                "source": "Windows.Terminal.PowershellCore"
+                "name": "Ubuntu",
+                "source": "Windows.Terminal.Wsl",
+                "startingDirectory": "/home/kmoschcau"
             },
             {
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
@@ -70,11 +70,16 @@
                 "source": "Windows.Terminal.Azure"
             },
             {
-                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+                "guid": "{3ae33116-8441-5d0f-8c35-1a9e67fbdb89}",
                 "hidden": false,
-                "name": "Ubuntu",
-                "source": "Windows.Terminal.Wsl",
-                "startingDirectory": "/home/kmoschcau"
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{6d5762da-def5-5475-bacf-f30d7d8df822}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
             }
         ]
     },
@@ -127,6 +132,29 @@
             "yellow": "#C19C00"
         },
         {
+            "background": "#212121",
+            "black": "#F5F5F5",
+            "blue": "#42A5F5",
+            "brightBlack": "#9E9E9E",
+            "brightBlue": "#1E88E5",
+            "brightCyan": "#00ACC1",
+            "brightGreen": "#7CB342",
+            "brightPurple": "#8E24AA",
+            "brightRed": "#E53935",
+            "brightWhite": "#757575",
+            "brightYellow": "#FFCA28",
+            "cursorColor": "#26C6DA",
+            "cyan": "#26C6DA",
+            "foreground": "#EEEEEE",
+            "green": "#9CCC65",
+            "name": "Material Dark",
+            "purple": "#AB47BC",
+            "red": "#EF5350",
+            "selectionBackground": "#00838F",
+            "white": "#BDBDBD",
+            "yellow": "#FFE082"
+        },
+        {
             "background": "#FAFAFA",
             "black": "#424242",
             "blue": "#2196F3",
@@ -142,7 +170,7 @@
             "cyan": "#00BCD4",
             "foreground": "#616161",
             "green": "#8BC34A",
-            "name": "Material",
+            "name": "Material Light",
             "purple": "#9C27B0",
             "red": "#F44336",
             "selectionBackground": "#B2EBF2",
