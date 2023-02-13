@@ -52,8 +52,8 @@
             "colorScheme": "Material Light",
             "font": 
             {
-                "face": "FiraMono NF",
-                "size": 10,
+                "face": "FuraMonoNerdFontComplete",
+                "size": 10.0,
                 "weight": "normal"
             },
             "intenseTextStyle": "bold",
@@ -379,6 +379,7 @@
     "snapToGridOnResize": true,
     "tabWidthMode": "titleLength",
     "theme": "system",
+    "themes": [],
     "useAcrylicInTabRow": true,
     "windowingBehavior": "useAnyExisting"
 }
