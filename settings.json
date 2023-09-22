@@ -92,6 +92,24 @@
                 "name": "Ubuntu",
                 "source": "Windows.Terminal.Wsl",
                 "startingDirectory": "/home/kmoschcau"
+            },
+            {
+                "guid": "{71cbc557-d3c5-5eef-bc99-e9dcf43777ec}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{b4d33ad5-c39e-59c1-8cd8-96546f689c8a}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{16208362-94fc-5b1f-a491-5b2624d5ab56}",
+                "hidden": true,
+                "name": "Visual Studio Debug Console",
+                "source": "VSDebugConsole"
             }
         ]
     },
