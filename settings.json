@@ -1,14 +1,14 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema-preview",
-    "actions":
+    "actions": 
     [
         {
             "command": "find",
             "keys": "ctrl+shift+f"
         },
         {
-            "command":
+            "command": 
             {
                 "action": "splitPane",
                 "split": "auto",
@@ -46,22 +46,22 @@
     "copyOnSelect": false,
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
     "launchMode": "default",
-    "newTabMenu":
+    "newTabMenu": 
     [
         {
             "type": "remainingProfiles"
         }
     ],
-    "profiles":
+    "profiles": 
     {
-        "defaults":
+        "defaults": 
         {
             "adjustIndistinguishableColors": "never",
-            "colorScheme": "Material Light",
+            "colorScheme": "Material Dark",
             "experimental.autoMarkPrompts": true,
             "experimental.retroTerminalEffect": false,
             "experimental.showMarksOnScrollbar": true,
-            "font":
+            "font": 
             {
                 "face": "FiraMono Nerd Font",
                 "size": 11.0,
@@ -74,7 +74,7 @@
             "useAcrylic": true,
             "useAtlasEngine": true
         },
-        "list":
+        "list": 
         [
             {
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
@@ -128,7 +128,7 @@
             }
         ]
     },
-    "schemes":
+    "schemes": 
     [
         {
             "background": "#0C0C0C",
