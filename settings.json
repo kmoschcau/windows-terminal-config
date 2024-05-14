@@ -60,6 +60,7 @@
     {
         "defaults": 
         {
+            "autoMarkPrompts": true,
             "bellStyle": 
             [
                 "audible",
